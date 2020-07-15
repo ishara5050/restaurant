@@ -41,9 +41,10 @@ class FoodRating extends Component {
             <div>
                 <div className="row">
                     <h3>Food Ratings</h3>
-                </div>
+               </div>
 
                 <div className="row">
+
 
 
                 </div>
