@@ -40,8 +40,8 @@ class FoodRating extends Component {
         return (
             <div>
                 <div className="row">
-                    <h3>Food Retingssss</h3>
-                </div>
+                    <h3>Food Ratings</h3>
+               </div>
 
                 <div className="row">
 
