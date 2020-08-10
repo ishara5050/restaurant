@@ -43,6 +43,9 @@ class navbar extends Component {
              
               </div>
             </li>
+            <li className="nav-item">
+              <a className="nav-link" href="/emp">Log Out</a>
+            </li>
           </ul>
           
              </div>

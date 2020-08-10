@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
-import firebase from '../firebase'
+import firebase from '../firebase';
+import store from "store";
+import isloggedIn from "../../helpers/is_logged_in";
 
 class AddCategory extends Component {
     constructor(props){

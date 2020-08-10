@@ -2,6 +2,7 @@ import React from 'react';
 
 import Employee from './components/AddEmployee/Employee';
 import AddCategory from './components/AddMenu/AddCategory';
+import LoginPage from './components/loginForm/LoginPage';
 import Test from './components/AddMenu/Test';
 
 
@@ -22,14 +23,15 @@ function App() {
   return (
     <div className="App">
 
-      <Navbar/>
+      
       
 
       <Router>
         <Switch>
-          <Route path="/emp"> <Employee /> </Route>
-          <Route path="/cat"> <Test/> </Route>
-          <Route path="/food"> <AddFood/> </Route>
+          <Route path="/login" component={LoginPage}><LoginPage /></Route>
+          <Route path="/emp" component={Employee}> <Employee/></Route>
+          <Route path="/cat" component={Test}> <Test/></Route>
+          <Route path="/food" component={AddFood}> <AddFood/> </Route>
 
         </Switch>
       </Router>
